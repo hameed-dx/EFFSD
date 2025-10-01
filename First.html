@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodyguard</title>
+    <link rel="stylesheet" href="first.css">
+    <style>
+       table,td{
+            border: 3px solid black;
+            border-collapse: collapse;
+            color: darkmagenta;
+            /* background-color: bisque; */
+        }
+        th{
+          color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     <h1>Bodyguard</h1>
@@ -22,12 +34,31 @@
         <li>Richard Madden</li>
         <li>Keeley Hawes</li>
     </ul>
-    <img src="img/bd.jpg" alt="Bodyguard Image" width="50%"> <br>
-  <form>
-    <input type="radio"  name="age" value="1-200" id="option-1">
-    <label for="option-1">1-200</label>
-    <input type="radio"  name="age" value="2-200" id="option-2">
-    <label for="option-2">2-200</label>
-  </form>
+    <img src="img/bd.jpg" alt="Bodyguard Image" width="50%"> <br> <br> <br>
+  
+     <table>
+        <tr>
+            <th></th>
+             <th style="padding-right: 50px;">The best films ever</th>
+        </tr>
+
+        <tr>
+            <td style="width: 50px; padding-left: 10px;">1</td>
+            <td>The princess bride</td>
+            <!-- <td>martin dustin</td> -->
+        </tr>
+
+         <tr>
+            <td style="width: 50px; padding-left: 10px;">2</td>
+            <td>Brockback</td>
+             <!-- <td>martin dustin</td> -->
+        </tr>
+
+         <tr>
+            <td style="width: 50px; padding-left: 10px;">3</td>
+            <td>Back to the future</td>
+             <!-- <td>martin dustin</td> -->
+        </tr>
+    </table>
 </body>
 </html>
